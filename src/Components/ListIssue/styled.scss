@@ -1,0 +1,86 @@
+.container {
+    margin: 40px 10px;
+
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+        border: 1px solid rgba(56, 55, 55, 0.384);
+        padding: 10px;
+        border-radius: 5px;
+
+        .container-img {
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+            background-color: rgba(56, 55, 55, 0.637);
+            border-radius: 9px;
+
+            >img {
+                width: 120px;
+                height: 120px;
+                border-radius: 100%;
+
+            }
+        }
+
+        .txt {
+            padding-top: 5px;
+
+            .name-txt {
+                display: flex;
+                gap: 20px;
+
+                >h4 {
+                    text-align: center;
+                    color: rgba(0, 0, 0, 0.493);
+                    font-size: 18px
+                }
+            }
+
+            >p {
+                margin-top: 10px;
+            }
+
+            .links {
+                display: flex;
+                gap: 10px;
+                margin-top: 10px;
+
+                >a {
+                    text-decoration: none;
+                    font-size: 19px;
+                }
+
+            }
+
+            .thigs {
+                display: flex;
+                gap: 7px;
+                margin-top: 4px;
+
+                .fork {
+                    background-color: rgb(51, 224, 51);
+                    padding: 4px;
+                    border-radius: 10px;
+                    color: white;
+                }
+
+                .whatchers {
+                    background-color: rgb(138, 132, 132);
+                    padding: 4px;
+                    border-radius: 10px;
+                    color: white;
+                }
+
+                .oI {
+                    background-color: rgb(61, 61, 202);
+                    padding: 4px;
+                    border-radius: 10px;
+                    color: white;
+                }
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,31 @@
+header {
+    background-color: #ffbb00;
+    .txt-seach {
+        color: #e7e7e7;
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 900;
+        font-family: Arial;
+        width: 100vw;
+        padding: 10px;
+        margin-left:70px ;
+    }
+}
+
+section{
+    margin: 0 50px;
+    width: auto;
+    
+    .top-bar{
+        border: 1px solid rgba(56, 55, 55, 0.384);
+        padding: 20px;
+        border-radius: 5px;
+        >h2{
+            margin-bottom: 15px;
+        }
+        .seacher{
+            display: flex;
+            gap:10px;
+        }
+    }
+}

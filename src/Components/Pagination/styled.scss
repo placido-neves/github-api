@@ -1,0 +1,26 @@
+.pagination{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+
+    >li+li{
+        margin-left: 1rem;
+    }
+    .pagination-active{
+        background: none;
+        font-weight: bold;
+        border: none;
+        padding: 7px;
+    } 
+    .pagination-deactive{
+        background-color: rgba(0, 0, 255, 0.514);
+        border-radius: 100%;
+        border: none;
+        padding: 7px;
+        color: white;
+    }
+    .pagination-deactive:hover{
+        background-color: rgba(0, 0, 255, 0.877);
+    }
+}

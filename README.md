@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# FieldControlChallengeFront
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+   <h2 align="center" style="font-size: 25px;margin-bottom: 2rem;">GitHub Api</h2>
+   <div align="center">
+   </div>
+</div>
 
-## Available Scripts
+# Descrição
 
-In the project directory, you can run:
+<div style="margin-bottom:2rem;">
 
-### `yarn start`
+<p style="font-size: 15px">O projeto FieldControl Challenge Front tem como objetivo o desenvolvimento de uma aplicação que acessa um  endpoint da API do github.</p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Utilização
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p style="font-size: 15px">É possível você utilizar o projeto seguindos estes passos:</p>
+<p style="font-size: 15px">Utilize o Git Clone no repositório em uma pasta de sua escolha</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<p style="font-size: 15px">Execute o comando a seguir no terminal para instalar as dependências</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+$ npm i
+ou
+$ npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p style="font-size: 15px">Para executar o projeto digite</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ npm start 
+ou 
+$ yarn start 
+```
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p style="font-size: 15px">Para executar os testes unitários</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+$ npm test
+ou 
+$ yarn test
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Tecnologias e ferramentas utilizadas
 
-## Learn More
+<div >
+<ul>
+<li>Node</li>
+<li>SCSS</li>
+<li>ReactJSr</li>
+<li>Jest</li>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</div>
 
-### Code Splitting
+# Desenvolvedor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p style="font-size: 15px">Placido Neves</p>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
